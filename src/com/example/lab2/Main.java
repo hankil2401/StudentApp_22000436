@@ -27,5 +27,13 @@ public class Main {
 		for(Student ss : list) {
 			System.out.println("Student "+ss.toString());
 		}
+		
+		System.out.println("\nReverse: \n");
+		
+		Collections.sort(list, Collections.reverseOrder());
+		
+		for(Student ss : list) {
+			System.out.println("Student "+ss.toString());
+		}
 	}
 }
